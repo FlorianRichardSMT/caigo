@@ -3,7 +3,7 @@ package rpc
 import (
 	"context"
 
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/FlorianRichardSMT/caigo/types"
 )
 
 // not implemented for testing yet

@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/FlorianRichardSMT/caigo/types"
 )
 
 //go:embed tests/counter.json

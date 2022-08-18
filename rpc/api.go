@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dontpanicdao/caigo"
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/FlorianRichardSMT/caigo"
+	"github.com/FlorianRichardSMT/caigo/types"
 )
 
 type Events struct {

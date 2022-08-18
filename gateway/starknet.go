@@ -10,8 +10,8 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/dontpanicdao/caigo"
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/FlorianRichardSMT/caigo"
+	"github.com/FlorianRichardSMT/caigo/types"
 	"github.com/google/go-querystring/query"
 )
 
@@ -109,6 +109,7 @@ type RawContractDefinition struct {
 	ABI               []types.ABI             `json:"abi"`
 	EntryPointsByType types.EntryPointsByType `json:"entry_points_by_type"`
 	Program           map[string]interface{}  `json:"program"`
+	Version           string                  `json:"version"`
 }
 
 /*

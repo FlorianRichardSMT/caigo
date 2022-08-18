@@ -80,6 +80,7 @@ type ContractClass struct {
 	ABI               []ABI             `json:"abi"`
 	EntryPointsByType EntryPointsByType `json:"entry_points_by_type"`
 	Program           interface{}       `json:"program"`
+	Version           string            `json:"version"`
 }
 
 type DeclareRequest struct {

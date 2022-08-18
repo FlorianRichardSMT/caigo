@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/FlorianRichardSMT/caigo/types"
 	"github.com/google/go-querystring/query"
 )
 

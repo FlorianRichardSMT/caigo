@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/FlorianRichardSMT/caigo/types"
 )
 
 // Gets a contracts code.

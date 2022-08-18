@@ -1,8 +1,8 @@
-module github.com/dontpanicdao/caigo/examples/curve
+module github.com/FlorianRichardSMT/caigo/examples/curve
 
 go 1.18
 
-require github.com/dontpanicdao/caigo v0.2.1-0.20220620163912-1db2ca279608
+require github.com/FlorianRichardSMT/caigo v0.2.1-0.20220620163912-1db2ca279608
 
 require (
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e // indirect

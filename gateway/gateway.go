@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/FlorianRichardSMT/caigo/types"
 )
 
 const (
@@ -98,7 +98,6 @@ func (sg *Gateway) newRequest(
 	if err != nil {
 		return nil, err
 	}
-
 
 	if body != nil {
 		data, err := json.Marshal(body)

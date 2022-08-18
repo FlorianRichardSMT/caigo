@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/dontpanicdao/caigo"
-	"github.com/dontpanicdao/caigo/gateway"
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/FlorianRichardSMT/caigo/types"
+	"github.com/FlorianRichardSMTrdSMT/caigo"
+	"github.com/FlorianRichardSMTrdSMTrdSMT/caigo/gateway"
 )
 
 var (

@@ -13,7 +13,7 @@ import (
 	"log"
 	"math/big"
 
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/FlorianRichardSMT/caigo/types"
 )
 
 var Curve StarkCurve

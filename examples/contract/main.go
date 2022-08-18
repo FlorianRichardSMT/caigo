@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/dontpanicdao/caigo/gateway"
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/FlorianRichardSMT/caigo/gateway"
+	"github.com/FlorianRichardSMT/caigo/types"
 )
 
 // Start Devnet:

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/FlorianRichardSMT/caigo/types"
 	"github.com/joho/godotenv"
 )
 

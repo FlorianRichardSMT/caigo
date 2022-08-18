@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/FlorianRichardSMT/caigo/types"
 )
 
 func (sg *Gateway) ClassByHash(ctx context.Context, hash string) (*RawContractDefinition, error) {

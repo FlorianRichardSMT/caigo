@@ -1,8 +1,8 @@
-module github.com/dontpanicdao/caigo/examples/account
+module github.com/FlorianRichardSMT/caigo/examples/account
 
 go 1.18
 
-require github.com/dontpanicdao/caigo v0.2.1-0.20220620163912-1db2ca279608
+require github.com/FlorianRichardSMT/caigo v0.2.1-0.20220620163912-1db2ca279608
 
 require (
 	github.com/google/go-querystring v1.1.0 // indirect

@@ -7,7 +7,7 @@ import (
 	"encoding/base64"
 	"encoding/json"
 
-	"github.com/dontpanicdao/caigo/types"
+	"github.com/FlorianRichardSMT/caigo/types"
 )
 
 // AddDeclareTransactionOutput provides the output for AddDeclareTransaction.

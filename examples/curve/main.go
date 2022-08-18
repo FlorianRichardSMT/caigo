@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/dontpanicdao/caigo"
+	"github.com/FlorianRichardSMT/caigo"
 )
 
 func main() {

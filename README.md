@@ -1,17 +1,17 @@
 <h1 align="center">Golang Library for StarkNet</h1>
 
 <p align="center">
-    <a href="https://pkg.go.dev/github.com/dontpanicdao/caigo">
-        <img src="https://pkg.go.dev/badge/github.com/dontpanicdao/caigo.svg" alt="Go Reference">
+    <a href="https://pkg.go.dev/github.com/FlorianRichardSMT/caigo">
+        <img src="https://pkg.go.dev/badge/github.com/FlorianRichardSMT/caigo.svg" alt="Go Reference">
     </a>
-    <a href="https://github.com/dontpanicdao/caigo/blob/main/LICENSE">
+    <a href="https://github.com/FlorianRichardSMT/caigo/blob/main/LICENSE">
         <img src="https://img.shields.io/badge/license-MIT-black">
     </a>
     <a href="https://starkware.co/">
         <img src="https://img.shields.io/badge/powered_by-StarkWare-navy">
     </a>
-    <a href="https://github.com/dontpanicdao/caigo/actions/workflows/go.yml">
-        <img src="https://github.com/dontpanicdao/caigo/actions/workflows/go.yml/badge.svg?branch=main" alt="Go">
+    <a href="https://github.com/FlorianRichardSMT/caigo/actions/workflows/go.yml">
+        <img src="https://github.com/FlorianRichardSMT/caigo/actions/workflows/go.yml/badge.svg?branch=main" alt="Go">
     </a>
 </p>
 
@@ -19,7 +19,7 @@ Caigo is an MIT-licensed Go library for interacting with [StarkNet](https://docs
 
 ### Getting Started
 
-- library documentation available at [pkg.go.dev](https://pkg.go.dev/github.com/dontpanicdao/caigo).
+- library documentation available at [pkg.go.dev](https://pkg.go.dev/github.com/FlorianRichardSMT/caigo).
 - [curve example](./examples/curve) initializing the StarkCurve for signing and verification
 - [contract example](./examples/contract) for smart contract deployment and function call
 - [account example](./examples/contract) for Account initialization and invocation call
@@ -113,9 +113,9 @@ Caigo is currently under active development and will under go breaking changes u
 ## Issues
 
 If you find an issue/bug or have a feature request please submit an issue here
-[Issues](https://github.com/dontpanicdao/caigo/issues)
+[Issues](https://github.com/FlorianRichardSMT/caigo/issues)
 
 ## Contributing
 
 If you are looking to contribute, please head to the
-[Contributing](https://github.com/dontpanicdao/caigo/blob/main/CONTRIBUTING.md) section.
+[Contributing](https://github.com/FlorianRichardSMT/caigo/blob/main/CONTRIBUTING.md) section.
