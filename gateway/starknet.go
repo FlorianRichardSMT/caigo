@@ -109,7 +109,6 @@ type RawContractDefinition struct {
 	ABI               []types.ABI             `json:"abi"`
 	EntryPointsByType types.EntryPointsByType `json:"entry_points_by_type"`
 	Program           map[string]interface{}  `json:"program"`
-	Version           string                  `json:"version"`
 }
 
 /*
@@ -140,6 +139,7 @@ func (sg *Gateway) Deploy(ctx context.Context, filePath string, deployRequest ty
 	if err != nil {
 		return resp, err
 	}
+	deployRequest.ContractDefinition.Version = "0x0"
 
 	req, err := sg.newRequest(ctx, http.MethodPost, "/add_transaction", deployRequest)
 	if err != nil {

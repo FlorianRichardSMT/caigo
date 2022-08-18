@@ -59,9 +59,9 @@ type ABI struct {
 	Inputs []struct {
 		Name string `json:"name"`
 		Type string `json:"type"`
-	} `json:"inputs,omitempty"`
+	} `json:"inputs"`
 	Outputs         []interface{} `json:"outputs,omitempty"`
-	StateMutability string        `json:"stateMutability,omitempty"`
+	StateMutability string        `json:"stateMutability"`
 }
 
 type AddTxResponse struct {
